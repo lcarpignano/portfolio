@@ -1,5 +1,5 @@
 import PortfolioItem from './PortfolioItem';
-import { portfolioData } from '../../config/portfolioData';
+import { portfolioData } from '../../data/portfolioData';
 import './portfolio.css'
 
 const Portfolio = () => {

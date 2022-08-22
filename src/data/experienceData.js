@@ -26,16 +26,21 @@ export const frontEndData = [
     },
     {
         id: 6,
-        title: 'Tailwind',
+        title: 'Vue',
         description: 'Intermediate',
     },
     {
         id: 7,
-        title: 'MaterialUI',
+        title: 'Tailwind',
         description: 'Intermediate',
     },
     {
         id: 8,
+        title: 'MaterialUI',
+        description: 'Intermediate',
+    },
+    {
+        id: 9,
         title: 'Framer Motion',
         description: 'Intermediate',
     },

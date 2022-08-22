@@ -11,6 +11,7 @@ const PortfolioItem = ({ id, image, title, github, demo }) => {
     <>
       <article className='portfolio__items' key={id}>
         <div className='portfolio__item-image'>
+          {/* TODO: replace img for adependency component */}
           <img src={image} alt='portfolio1'></img>
         </div>
         <h3>{title}</h3>

@@ -1,4 +1,4 @@
-import { frontEndData, backendData } from '../../config/experienceData'
+import { frontEndData, backendData } from '../../data/experienceData'
 import './experience.css'
 import ExperienceItem from './ExperienceItem'
 
