@@ -11,24 +11,35 @@ const PortfolioItem = ({ id, image, title, github, demo }) => {
     <>
       <article className='portfolio__items' key={id}>
         <div className='portfolio__item-image'>
-          {/* TODO: replace img for adependency component */}
           <img src={image} alt='portfolio1'></img>
         </div>
         <h3>{title}</h3>
         <div className='portfolio__item-cta'>
-          <a
+          <motion.a
+            transition={{
+              ease: "easeInOut",
+              duration: 0.1
+            }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
             href={github}
             className='btn'
             target='_blank'
             rel='noreferrer'>
             Github
-          </a>
-          <div
+          </motion.a>
+          <motion.div
+            transition={{
+              ease: "easeInOut",
+              duration: 0.1
+            }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
             onClick={() => setIsOpen(!isOpen)}
             className='btn btn-primary'
           >
-            Live Demo
-          </div>
+            Demo
+          </motion.div>
         </div>
       </article>
 
@@ -39,12 +50,12 @@ const PortfolioItem = ({ id, image, title, github, demo }) => {
           onClick={() => setIsOpen(!isOpen)}
           style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.5)' }}
         >
-          
+
           <ReactPlayer
-            style={{ position: 'fixed', top: '15vh', left: '25vw', zIndex: '1' }}
+            style={{ position: 'fixed', zIndex: '1' }}
             url='https://www.youtube.com/watch?v=QohH89Eu5iM'
-            width='50%'
-            height='50%'
+            width='100%'
+            height='100%'
             playing={true}
             onEnded={() => setIsOpen(!isOpen)}
           />

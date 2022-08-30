@@ -2,22 +2,22 @@ export const frontEndData = [
     {
         id: 1,
         title: 'HTML',
-        description: 'Experienced',
+        description: 'Skillsd',
     },
     {
         id: 2,
         title: 'CSS',
-        description: 'Experienced',
+        description: 'Skillsd',
     },
     {
         id: 3,
         title: 'Javascript',
-        description: 'Experienced',
+        description: 'Skillsd',
     },
     {
         id: 4,
         title: 'jQuery',
-        description: 'Experienced',
+        description: 'Skillsd',
     },
     {
         id: 5,

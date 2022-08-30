@@ -8,6 +8,7 @@ footer {
 
 footer a {
     color: var(--color-bg);
+    cursor: pointer;
 }
 
 .footer__logo {
@@ -15,6 +16,8 @@ footer a {
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
+    cursor: pointer;
+
 }
 
 .permalinks {
@@ -23,6 +26,7 @@ footer a {
     justify-content: center;
     gap: 2rem;
     margin: 0 auto 3rem;
+    cursor: pointer;
 }
 
 .footer__socials {
@@ -40,12 +44,6 @@ footer a {
     display: flex;
     border: 1px solid transparent;
     transition: var(--transition);
-}
-
-.footer__socials a:hover {
-    background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
 }
 
 .footer__copyright {

@@ -1,0 +1,1 @@
+export const text = "I am a professional with a strong logical and analytical profile, with a huge passion for technology and development. I am currently looking for new challenges in which I can both contribute and keep learning. I am a cordial, respectful and responsible person, with a strong feeling for teamwork and commitment."

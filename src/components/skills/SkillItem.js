@@ -1,11 +1,11 @@
 import { BsPatchCheckFill } from 'react-icons/bs'
 
-import './experience.css'
+import './skills.css'
 
-const ExperienceItem = ({ title, description }) => {
+const SkillsItem = ({ title, description }) => {
     return (
-        <article className='experience__details'>
-            <BsPatchCheckFill className='experience__details-icon' />
+        <article className='skills__details'>
+            <BsPatchCheckFill className='skills__details-icon' />
             <div>
                 <h4>{title}</h4>
                 <small className='text-light'>{description}</small>
@@ -15,4 +15,4 @@ const ExperienceItem = ({ title, description }) => {
     )
 }
 
-export default ExperienceItem;
+export default SkillsItem;
